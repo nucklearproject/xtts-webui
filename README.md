@@ -36,14 +36,14 @@ To get started:
 ### 2 Method, Manual
 Follow these steps for installation:
 1. Ensure that `CUDA` is installed
-2. Clone the repository: `git clone https://github.com/daswer123/xtts-webui`
+2. Clone the repository: `git clone https://github.com/nucklearproject/xtts-webui`
 3. Navigate into the directory: `cd xtts-webui`
 4. Create a virtual environment: `python -m venv venv`
 5. Activate the virtual environment:
    - On Windows use : `venv\scripts\activate`
    - On linux use    : `source venv\bin\activate`
 
-6. Install PyTorch and torchaudio with pip command for lightning.ai:
+6. Install PyTorch and torchaudio with pip command for ///// lightning.ai ////:
 
    `pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121`
 
