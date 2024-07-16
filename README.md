@@ -1,15 +1,5 @@
 # XTTS-WebUI
 
-[English](https://github.com/daswer123/xtts-webui/blob/main/README.md)
-
-[Russian](https://github.com/daswer123/xtts-webui/blob/main/README_ru_RU.md)
-
-[Português](https://github.com/daswer123/xtts-webui/blob/main/README_pt-BR.md)
-
-## About the Project
-XTTS-Webui is a web interface that allows you to make the most of XTTS. There are other neural networks around this interface that will improve your results. You can also fine tune the model and get a high quality voice model.
-
-![image](https://github.com/daswer123/xtts-webui/assets/22278673/89eb50c5-9a1e-41cf-8ae9-b734761716a6)
 
 ## Key Features
 - Easy working with XTTSv2
@@ -28,11 +18,6 @@ XTTS-Webui is a web interface that allows you to make the most of XTTS. There ar
 - [ ] Add the ability to customize speakers when batch processing
 - [ ] Add API
 
-## Installation
-
-Use this web UI through [Google Colab](https://colab.research.google.com/drive/1MrzAYgANm6u79rCCQQqBSoelYGiJ1qYL)
-
-**Please ensure you have Python 3.10.x or Python 3.11, CUDA 11.8 or CUDA 12.1 , Microsoft Builder Tools 2019 with c++ package, and ffmpeg installed**
 
 ### 1 Method, through scripts
 
@@ -58,9 +43,9 @@ Follow these steps for installation:
    - On Windows use : `venv\scripts\activate`
    - On linux use    : `source venv\bin\activate`
 
-6. Install PyTorch and torchaudio with pip command :
+6. Install PyTorch and torchaudio with pip command for lightning.ai:
 
-   `pip install torch==2.1.1+cu118 torchaudio==2.1.1+cu118 --index-url https://download.pytorch.org/whl/cu118`
+   `pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121`
 
 7. Install all dependencies from requirements.txt :
 
